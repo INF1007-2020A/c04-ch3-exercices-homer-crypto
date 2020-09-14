@@ -5,13 +5,13 @@
 import math
 
 def square_root(a: float) -> float:
-    Result_sqtr_root = math.sqrt(a)
-    return Result_sr
+    Result_sqrt_root = math.sqrt(a)
+    return Result_sqrt_root
 
 
 def square(a: float) -> float:
     Result_sqrt = a*a
-    return Result_s
+    return Result_sq
 
 
 def average(a: float, b: float, c: float) -> float:
