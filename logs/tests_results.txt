@@ -1,10 +1,34 @@
 test_average (__main__.TestExercice) ... ok
-test_square (__main__.TestExercice) ... ok
-test_square_root (__main__.TestExercice) ... ok
+test_square (__main__.TestExercice) ... ERROR
+test_square_root (__main__.TestExercice) ... ERROR
 test_to_celsius (__main__.TestExercice) ... FAIL
 test_to_degrees (__main__.TestExercice) ... FAIL
 test_to_farenheit (__main__.TestExercice) ... FAIL
 test_to_radians (__main__.TestExercice) ... FAIL
+
+======================================================================
+ERROR: test_square (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 28, in test_square
+    output = [exercice.square(v) for v in values]
+  File "test_exercice.py", line 28, in <listcomp>
+    output = [exercice.square(v) for v in values]
+  File "/home/runner/work/c04-ch3-exercices-homer-crypto/c04-ch3-exercices-homer-crypto/exercice.py", line 14, in square
+    return Result_s
+NameError: name 'Result_s' is not defined
+
+======================================================================
+ERROR: test_square_root (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 16, in test_square_root
+    output = [exercice.square_root(v) for v in values]
+  File "test_exercice.py", line 16, in <listcomp>
+    output = [exercice.square_root(v) for v in values]
+  File "/home/runner/work/c04-ch3-exercices-homer-crypto/c04-ch3-exercices-homer-crypto/exercice.py", line 9, in square_root
+    return Result_sr
+NameError: name 'Result_sr' is not defined
 
 ======================================================================
 FAIL: test_to_celsius (__main__.TestExercice)
@@ -70,6 +94,6 @@ First differing element 0:
 + [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.001s
+Ran 7 tests in 0.002s
 
-FAILED (failures=4)
+FAILED (failures=4, errors=2)
