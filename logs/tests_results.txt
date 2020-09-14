@@ -21,6 +21,6 @@ First differing element 0:
 Diff is 851 characters long. Set self.maxDiff to None to see it. : Mauvais calcul de radians -> degres
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.006s
+Ran 7 tests in 0.005s
 
 FAILED (failures=1)
