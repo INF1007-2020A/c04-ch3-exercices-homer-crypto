@@ -32,7 +32,7 @@ def to_degrees(angle_rads: float) -> tuple:
 
 
 def to_celsius(temperature: float) -> float:
-    
+    to_celsius = temperature
     return 0.0
 
 
