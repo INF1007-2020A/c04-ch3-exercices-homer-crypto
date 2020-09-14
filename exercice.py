@@ -6,11 +6,11 @@ import math
 
 def square_root(a: float) -> float:
     Result_sr = math.sqrt(a)
-    return Number
+    return Result_sr
 
 
 def square(a: float) -> float:
-
+    
     return 0.0
 
 
