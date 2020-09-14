@@ -5,12 +5,12 @@
 import math
 
 def square_root(a: float) -> float:
-    Result_sr = math.sqrt(a)
+    Result_sqtr_root = math.sqrt(a)
     return Result_sr
 
 
 def square(a: float) -> float:
-    Result_s = a*a
+    Result_sqrt = a*a
     return Result_s
 
 
