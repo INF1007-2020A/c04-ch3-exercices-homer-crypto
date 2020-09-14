@@ -31,6 +31,7 @@
 
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
@@ -38,10 +39,10 @@ Score | Critères
 1/1 | Calcul du carré
 1/1 | Calcul de la racine carré
 1/1 | Conversion Farenheit -> Celsius
-1/1 | Conversion radians -> degrés
+0/1 | Conversion radians -> degrés
 1/1 | Conversion Celsius -> Farenheit
 1/1 | Conversion degrés -> radians
-7/7 | **Total**
+6/7 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 3)
