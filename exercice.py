@@ -38,7 +38,7 @@ def to_celsius(temperature: float) -> float:
 
 def to_farenheit(temperature: float) -> float:
     to_farenheit = (temperature * 1.8 + 32)
-    return 0.0
+    return to_farenheit
 
 
 def main() -> None:
